@@ -1,4 +1,6 @@
-# vue-sell-cube
+# Vue-sell
+
+## imooc Vue实战课程
 
 ## Project setup
 ```

@@ -1,6 +1,6 @@
 {
   mode: 'development',
-  context: '/Users/aelous/Aelous-Projects/vue-sell-cube',
+  context: '/Users/aelous/Aelous-Projects/Vue-sell',
   devtool: 'cheap-module-eval-source-map',
   node: {
     setImmediate: false,
@@ -12,18 +12,18 @@
     child_process: 'empty'
   },
   output: {
-    path: '/Users/aelous/Aelous-Projects/vue-sell-cube/dist',
+    path: '/Users/aelous/Aelous-Projects/Vue-sell/dist',
     filename: '[name].js',
     publicPath: '/',
     globalObject: 'this'
   },
   resolve: {
     alias: {
-      '@': '/Users/aelous/Aelous-Projects/vue-sell-cube/src',
+      '@': '/Users/aelous/Aelous-Projects/Vue-sell/src',
       vue$: 'vue/dist/vue.runtime.esm.js',
-      components: '/Users/aelous/Aelous-Projects/vue-sell-cube/src/components',
-      common: '/Users/aelous/Aelous-Projects/vue-sell-cube/src/common',
-      api: '/Users/aelous/Aelous-Projects/vue-sell-cube/src/api'
+      components: '/Users/aelous/Aelous-Projects/Vue-sell/src/components',
+      common: '/Users/aelous/Aelous-Projects/Vue-sell/src/common',
+      api: '/Users/aelous/Aelous-Projects/Vue-sell/src/api'
     },
     extensions: [
       '.mjs',
@@ -35,17 +35,17 @@
     ],
     modules: [
       'node_modules',
-      '/Users/aelous/Aelous-Projects/vue-sell-cube/node_modules',
-      '/Users/aelous/Aelous-Projects/vue-sell-cube/node_modules/@vue/cli-service/node_modules'
+      '/Users/aelous/Aelous-Projects/Vue-sell/node_modules',
+      '/Users/aelous/Aelous-Projects/Vue-sell/node_modules/@vue/cli-service/node_modules'
     ]
   },
   resolveLoader: {
     modules: [
-      '/Users/aelous/Aelous-Projects/vue-sell-cube/node_modules/@vue/cli-plugin-eslint/node_modules',
-      '/Users/aelous/Aelous-Projects/vue-sell-cube/node_modules/@vue/cli-plugin-babel/node_modules',
+      '/Users/aelous/Aelous-Projects/Vue-sell/node_modules/@vue/cli-plugin-eslint/node_modules',
+      '/Users/aelous/Aelous-Projects/Vue-sell/node_modules/@vue/cli-plugin-babel/node_modules',
       'node_modules',
-      '/Users/aelous/Aelous-Projects/vue-sell-cube/node_modules',
-      '/Users/aelous/Aelous-Projects/vue-sell-cube/node_modules/@vue/cli-service/node_modules'
+      '/Users/aelous/Aelous-Projects/Vue-sell/node_modules',
+      '/Users/aelous/Aelous-Projects/Vue-sell/node_modules/@vue/cli-service/node_modules'
     ]
   },
   module: {
@@ -59,7 +59,7 @@
           {
             loader: 'cache-loader',
             options: {
-              cacheDirectory: '/Users/aelous/Aelous-Projects/vue-sell-cube/node_modules/.cache/vue-loader',
+              cacheDirectory: '/Users/aelous/Aelous-Projects/Vue-sell/node_modules/.cache/vue-loader',
               cacheIdentifier: '14ed1f54'
             }
           },
@@ -70,7 +70,7 @@
               compilerOptions: {
                 preserveWhitespace: false
               },
-              cacheDirectory: '/Users/aelous/Aelous-Projects/vue-sell-cube/node_modules/.cache/vue-loader',
+              cacheDirectory: '/Users/aelous/Aelous-Projects/Vue-sell/node_modules/.cache/vue-loader',
               cacheIdentifier: '14ed1f54'
             }
           }
@@ -910,7 +910,7 @@
                   preferPathResolver: 'webpack',
                   'resolve url': true,
                   'import': [
-                    '/Users/aelous/Aelous-Projects/vue-sell-cube/src/theme'
+                    '/Users/aelous/Aelous-Projects/Vue-sell/src/theme'
                   ]
                 }
               }
@@ -951,7 +951,7 @@
                   preferPathResolver: 'webpack',
                   'resolve url': true,
                   'import': [
-                    '/Users/aelous/Aelous-Projects/vue-sell-cube/src/theme'
+                    '/Users/aelous/Aelous-Projects/Vue-sell/src/theme'
                   ]
                 }
               }
@@ -994,7 +994,7 @@
                   preferPathResolver: 'webpack',
                   'resolve url': true,
                   'import': [
-                    '/Users/aelous/Aelous-Projects/vue-sell-cube/src/theme'
+                    '/Users/aelous/Aelous-Projects/Vue-sell/src/theme'
                   ]
                 }
               }
@@ -1034,7 +1034,7 @@
                   preferPathResolver: 'webpack',
                   'resolve url': true,
                   'import': [
-                    '/Users/aelous/Aelous-Projects/vue-sell-cube/src/theme'
+                    '/Users/aelous/Aelous-Projects/Vue-sell/src/theme'
                   ]
                 }
               }
@@ -1053,7 +1053,7 @@
           {
             loader: 'cache-loader',
             options: {
-              cacheDirectory: '/Users/aelous/Aelous-Projects/vue-sell-cube/node_modules/.cache/babel-loader',
+              cacheDirectory: '/Users/aelous/Aelous-Projects/Vue-sell/node_modules/.cache/babel-loader',
               cacheIdentifier: 'ef3a0ac0'
             }
           },
@@ -1069,7 +1069,7 @@
         test: /\.(vue|(j|t)sx?)$/,
         exclude: [
           /node_modules/,
-          '/Users/aelous/Aelous-Projects/vue-sell-cube/node_modules/@vue/cli-service/lib'
+          '/Users/aelous/Aelous-Projects/Vue-sell/node_modules/@vue/cli-service/lib'
         ],
         use: [
           /* config.module.rule('eslint').use('eslint-loader') */
@@ -1085,7 +1085,7 @@
               cacheIdentifier: '9373ec84',
               emitWarning: true,
               emitError: false,
-              eslintPath: '/Users/aelous/Aelous-Projects/vue-sell-cube/node_modules/eslint/lib/api.js',
+              eslintPath: '/Users/aelous/Aelous-Projects/Vue-sell/node_modules/eslint/lib/api.js',
               formatter: function () { /* omitted long function */ }
             }
           }
@@ -1126,7 +1126,7 @@
     new HtmlWebpackPlugin(
       {
         templateParameters: function () { /* omitted long function */ },
-        template: '/Users/aelous/Aelous-Projects/vue-sell-cube/public/index.html'
+        template: '/Users/aelous/Aelous-Projects/Vue-sell/public/index.html'
       }
     ),
     /* config.plugin('preload') */
@@ -1151,8 +1151,8 @@
     new CopyWebpackPlugin(
       [
         {
-          from: '/Users/aelous/Aelous-Projects/vue-sell-cube/public',
-          to: '/Users/aelous/Aelous-Projects/vue-sell-cube/dist',
+          from: '/Users/aelous/Aelous-Projects/Vue-sell/public',
+          to: '/Users/aelous/Aelous-Projects/Vue-sell/dist',
           toType: 'dir',
           ignore: [
             '.DS_Store'
