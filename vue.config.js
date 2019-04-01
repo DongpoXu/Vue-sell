@@ -54,7 +54,6 @@ module.exports = {
       .set('api', resolve('src/api'))
     config.plugin('context')
       .use(webpack.ContextReplacementPlugin, [/moment[/\\]locale$/, /zh-cn/])
-  }
-  // ,
-  // baseUrl: ''
+  },
+  baseUrl: ''
 }
