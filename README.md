@@ -1,6 +1,6 @@
 # Vue-sell
 
-## Vue实战课程
+## imooc Vue实战课程
 
 ## Project setup
 ```
